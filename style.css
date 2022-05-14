@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+.container {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background-color: #fff;
+    height: 60%;
+    width: 30%;
+    border-radius: 20px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 3rem;
+}
+.move img{
+    height: 100px;
+    width: 100px;
+}
+.upper-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+}
+.round-counter{
+    margin-top:30px;
+    
+}
+.numbers {
+    display: flex;
+    justify-content: center;
+    
+}
+.selector{
+    display: flex;
+    justify-content: space-around;
+}
+.move {
+    cursor: pointer;
+}
+#paper {
+    margin-top: 10%;
+}
+button {
+    background: none;
+    border: none;
+}
+.gameOver{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 999;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+}
+.innerEnd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 25%;
+}
+.innerEnd button {
+    text-decoration: none;
+    font-size: 2rem;
+    border: 2px solid #fff;
+    padding: 20px;
+    color: #fff;
+    margin-top: 25px;
+}
+.winner {
+    font-size: 2rem;
+    color: green;
+    margin-top: 20px;
+}
+.tie {
+    font-size: 2rem;
+    color: orange;
+    margin-top: 20px;
+}
+.loser {
+    font-size: 2rem;
+    color: red;
+    margin-top: 20px;
+}
+.numbers{
+    font-size: 1.5rem;
+    margin-top:5px;
+}
+.playerScore{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+
+}
+.playerScoreNumber{
+    font-size: 2rem;
+    color: goldenrod;
+    margin-left: 20px;;
+}
+.computerFinal {
+    margin: 10px 0px;;
+}

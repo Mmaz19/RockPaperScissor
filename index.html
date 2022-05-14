@@ -9,7 +9,32 @@
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
 </head>
 <body>
-    
+    <div class="container">
+       <div class="gameOver">
+        <div class="innerEnd">   
+            <h2 class="titleOver">Game Over</h2>
+            <div class="showFinal"></div>
+           <button onClick="window.location.reload();" class="restart">Restart</button>
+        </div>
+       </div>
+        <div class="content">
+            <div class="upper-content">
+                <div><h2 class="title">CHOOSE WISELY</h2></div>
+                <div class="round-counter"><h2 class="round">Round:</h2><div class="numbers"><span class="counterUp">0</span>/5</div></div>
+                <div class="results">
+            </div>    
+            </div>
+            <div class="selector">
+                <button id="rock"  class="move"><img src="./img/rps_Tavola disegno 1.png" alt=""></button>
+                <button id="paper" class="move"><img src="./img/rps_Tavola disegno 1 copia 2.png" alt=""></button>
+                <button id="scissors" class="move"><img src="./img/rps_Tavola disegno 1 copia.png" alt=""></button>
+            </div>
+            <div class="playerScore">
+                <h2>Your Score:</h2>
+                <div class="playerScoreNumber"></div>
+            </div>
+        </div>
+    </div>
 
 
 
